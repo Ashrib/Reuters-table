@@ -1,0 +1,409 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+#main{
+    border: 1px;
+    margin: 25px;
+    width: 1330px;
+    height: 1000px;
+    border: 2px solid rgb(182, 181, 181);
+
+}
+#nav1{
+    background-color: black;
+    width: 100%;
+    height: 90px;
+}
+.reuters{
+    display:inline-block;
+    background-color: rgb(233, 0, 0);
+    color: white;
+    height: inherit;
+    width: 15%;
+    text-align: center;
+    margin: 0%;
+    
+}
+.reuters span{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    
+}
+.blackboxsmall{
+    display:inline-block;
+    height: inherit;
+    width: 8%;
+    background-color: transparent;
+    color: white;
+    border-right: 1px solid grey;
+    
+}
+.ed{
+    text-transform: uppercase;
+    color: rgb(153, 149, 149);
+    font-size: 0.6em;
+    margin: 0px 0px 0px 15px  ;
+}
+.us{
+    margin: 0px 0px 0px 15px ;
+}
+.blackbox{
+    display:inline-block;
+    color: white;
+    background-color: inherit;
+    height: inherit;
+    width: 13%;
+    border-right: 1px solid grey;
+    
+}
+.blackbox span{
+    margin: 0px 0px 0px 15px  ;
+}
+
+#search{
+    display:inline;
+    height: inherit;
+    background-color: transparent;
+}
+#search span{
+    margin-left: 220px;
+    color: white;
+    background-color: inherit;
+    text-decoration: underline red;
+    
+}
+
+a{
+    margin-left: 3px;
+    text-decoration: none;
+}
+#signin button{
+    
+    border: none;
+    border-right: 1px solid rgb(65, 62, 62);
+    background-color: inherit;
+    
+}
+#signin button:hover{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+}
+
+#signin{
+    display:inline;
+    background-color: gray;
+    padding: 3px;
+    word-spacing: 15px;
+    float: right;
+}
+#lower{
+    display: inline-block;
+    background-color: white;
+    border: 1px solid black;
+    padding: 7px;
+    
+} 
+#lower input{
+    background-color: white;
+    border: none;
+    width: 270px;
+    margin-left: 8px;
+}
+#lower input:focus{
+    background-color: gainsboro;
+    border: none;
+    margin-left: 10px;
+    padding: 10px;
+}
+#lower button{
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#lower button:hover{
+    background-color: green;
+}
+#heading{
+    padding: 0px 5px 0px 10px;
+    border-bottom: 1px solid gray;
+}
+#heading h1 {
+    /* margin-top: 50px; */
+}
+#nav2{
+    padding: 0px 5px 0px 10px;
+}
+#nav2 ul{
+    list-style: none;
+    padding-left: 7px;
+}
+#nav2 ul li{
+    display: inline;
+    padding-left: 15px;
+    
+}
+#nav2 ul li a{
+    color: rgb(0, 81, 255);
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+#nav2 ul li a:hover{
+    color: red;
+}
+#nav2 span{
+    color: rgb(82, 81, 81);
+}
+#table1{
+    padding: 10px 5px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 60%;
+    
+}
+#table1 th{
+    font-size: 1.6em;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+#table1 td{
+    font-weight: bold;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    border-left: 2px solid rgb(182, 181, 181);
+}
+.numbers{
+    font-size: 1.3em;
+    
+}
+#table1 h4{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red{
+    color: red;
+}
+.text{
+    display: block;
+    font-size: 0.8em;
+}
+.time{
+    font-weight: bold;
+}
+#table1 p{
+    color: gray;
+    font-size: 0.9em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#table2{
+    width: 60%;
+    padding: 2px 5px 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#table2 h4{
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#table2 th{
+    text-align: left;
+}
+.blue{
+    font-size: 0.9em;
+    font-weight: 600;
+    color: rgb(3, 90, 219);
+}
+#table3{
+    width: 60%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 5px 0px 10px;
+}
+#table3 h4{
+    text-transform: uppercase;
+    
+}
+#table3 p{
+    font-size: 0.9em;
+}
+#table3 th{
+    text-align: left;
+    padding-left: 15px;
+}
+#table3 td{
+    padding: 8px 0px 8px 0px;
+    text-align: right;
+}
+.left{
+    text-align: left !important;
+}
+.usd{
+    text-align: center !important;
+}
+#righttable{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin: 0px 2.5% 0px 2.5%;
+    padding: 5px;
+    width: 35%;
+    height: 770px;
+    background-color:white;
+    float: right;
+}
+#head{
+    display: inline-block;
+    background-color: rgb(0, 92, 160);
+    height: 14%;
+    width: 100%;
+    padding: 0px;
+}
+#head h2{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-bottom: 21px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+#righttable table{
+    
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#righttable table th{
+    color: white;
+    background-color: rgb(6, 64, 138);
+    padding: 8px;
+    font-size: 0.9em;   
+    font-weight: 400;
+}
+#us{
+    color:rgb(0, 92, 160)!important;
+    background-color: white !important;
+    font-weight: 600 !important;
+}
+#sponsored{
+    margin-left: 50px;
+}
+#sponsored span{
+    font-size: 0.9em;
+    color: rgb(109, 105, 105);
+    
+    
+}
+#tradeforex{
+    display: inline-block;
+    background: -webkit-gradient(linear, left top, 
+    left bottom, from(#ee6868), to(#bb0404));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 40px 2px 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+.subheading{
+    height: 6%;
+    width: 100%;
+    background: -webkit-gradient(linear, left top, 
+    left bottom, from(#f0fbfd), to(#c3f6fa));
+    padding-top: 15px;
+    margin-top: 3px;
+    border-radius: 5px;
+}
+.maintext{
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: -1px;
+    margin: 5px 10px 5px 10px;
+   
+}
+.all{
+    float: right;
+    margin-right: 10px;
+    
+}
+#searchcompanyname{
+    margin: 3px 10px 5px 40px;
+    width: 80%;
+    height: 22px;
+    background-color: white;
+    border: 2px solid black;
+    padding: 8px;
+}
+#searchcompanyname input{
+    background-color: white;
+    border: none;
+    width: 270px;
+    margin-left: 10px;
+}
+#searchcompanyname input:focus{
+    background-color: gainsboro;
+    border: none;
+    width: 270px;
+    margin-left: 10px;
+    padding: 10px;
+}
+#searchcompanyname button{
+    border: none;
+    background-color: red;
+    color: white;
+    width: 80px;
+    font-weight: 600;
+    height: 25px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#searchcompanyname button:hover{
+    background-color: green;
+}
+.bluerow{
+    border-radius: 5px;
+    margin-top: 0px;
+    background-color: #ebfafc;
+    padding: 10px 0px 10px 10px;
+}
+.whiterow{
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 0px 10px 10px;
+}
+.bluetext{
+    color: rgb(3, 90, 219);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1em;
+    
+}
+.boldnumber{
+    margin-left: 80px;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+.rednumber{
+    font-weight: bold;
+    color: red;
+    margin-left: 40px;
+}
+.smallnumber{
+    margin-left: 40px;
+    font-weight: bold;
+}
+.greennumber{
+    color: green;
+    font-weight: bold;
+    margin-left: 40px;
+}
